@@ -1,6 +1,6 @@
-# Terminal-commands 
+# Terminal-commands 🧑🏻‍💻 x macOs
 
-Repository with the list of the basic commands to operate from the terminal, based on the Brad Traversy Terminal tutorial
+Repository with the list of the basic commands to operate from the terminal.
 
 ## Key Commands & Navigation
 
@@ -24,6 +24,26 @@ _This commands are intended for MacOS_   :computer:
 * `pwd` Print the curent working directory
 * `ls` List out the content of a folder and you can add "-a" shows hidden files or "-l" will show extra information like premisions, file size, but also allows you tu combine them eg: `la -a -l`
 * `cd` Changes your directory and also can be combined with the following commands:
-+ "cd -" *Takes me back to the last folder i was in*
+  - `cd ..` Takes you one level up
+  - `cd -`  Takes me back to the last folder I was in
+  - `cd /`  Takes you to the root of your machine
 
+## Open files & folders :open_file_folder:
+
+* `open` Just type open and the name of the file including the extension or the folder
+   - You can also open a URL's like this: open https://github.com + enter and that will open the website in your predefined browser
+
+## Creating and modifying files and directories :bookmark_tabs:
+
+* `mkdir` Creates a folder eg: __mkdir__ folder1
+* `touch` Creates a file eg: __touch__ docs.txt or multiple files at the same time eg: __touch__ users.txt callbacks.js
+* `rm` Remove files eg: __rm__ folder1, also have another options:
+  - `rm -i` Prompts you a message asking if you want to delete the file
+  - `rm -r` To delete an empty folder
+  - `rm -fr`To delete a folder with files in it
+
+## Copying and moving files :truck:
+
+* `cp` To copy a file into another folder eg: __cp__ docs.txt &nbsp;folder2/docs.txt
+* `mv`To move
 
