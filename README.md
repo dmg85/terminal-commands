@@ -15,4 +15,15 @@ _This commands are intended for MacOS_   :computer:
 
 ## To learn about the commands :book:
 
-* `man` Stands for manual command and shows the documentation of a certain command eg: man ls
+* `man` Stands for manual command and shows the documentation of a certain command eg: man ls, to exit press q
+* `whoami` Show the registered user
+* `date`show the current date
+
+## Navigation :earth_americas:
+
+* `pwd` Print the curent working directory
+* `ls` List out the content of a folder and you can add "-a" shows hidden files or "-l" will show extra information like premisions, file size, but also allows you tu combine them eg: `la -a -l`
+* `cd` Changes your directory and also can be combined with the following commands:
++ "cd -" *Takes me back to the last folder i was in*
+
+
