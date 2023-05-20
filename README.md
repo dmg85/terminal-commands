@@ -49,5 +49,8 @@ Repository with the list of the basic commands to operate from the terminal.
   
 ## Dealing with file content :abcd:
 
-* `cat`shorthand for concatenate, allows you to read the content of a file eg: cat foldername/file.js
+* `cat` shorthand for concatenate, allows you to read the content of a file eg: cat foldername/file.js "Will show you the content of a file"
+* `cat >` to write to a file. And right after the "> " add the name of your file press enter and all the text you put in the next line(s) will be added to the file you've specified:
+   - ![Screen Shot 2023-05-20 at 11 57 31 AM](https://github.com/dmg85/terminal-commands/assets/69224630/bc0abb31-1c83-45d7-a8e8-0f5a00809304)
+   - To exit the editing of the file press `ctrl + d`
 
