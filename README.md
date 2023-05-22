@@ -87,6 +87,8 @@ Repository with the list of the basic commands to operate from the terminal.
 
 In the example above the "." represents the current directory and the "-name" indicate to find by name
 - You can also search for empty files using the `-empty` command
-- `find`. -name "file-*" -delete will delete all the files containing that name and the consecutive numbers eg: "file-001, file-002, file 003" etc
+- `find` . -name "file-*" -delete will delete all the files containing that name and the consecutive numbers eg: "file-001, file-002, file 003" etc
+
+
 
 
