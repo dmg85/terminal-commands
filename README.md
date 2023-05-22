@@ -79,7 +79,7 @@ Repository with the list of the basic commands to operate from the terminal.
 
 >![Screen Shot 2023-05-20 at 7 46 17 PM](https://github.com/dmg85/terminal-commands/assets/69224630/ee4a3a16-0e4c-4444-955b-8a5e915b0f51)
 
-* `find` search for a file using regular expressions to define a search pattern, regular expressions a.k.a regex uses a combination      of characters known as **Metacharacters** here are some of the most commonly used:
+* `find` search for a file using regular expressions to define a search pattern, regular expressions a.k.a regex uses a combination of characters known as **Metacharacters** here are some of the most commonly used:
    - `.` (dot): Matches any single character except a newline
    - `*`: Matches zero or more occurrences of the preceding character or group
    - `+`: Matches one or more occurrences of the preceding character or group
@@ -89,6 +89,16 @@ In the example above the "." represents the current directory and the "-name" in
 - You can also search for empty files using the `-empty` command
 - `find` . -name "file-*" -delete will delete all the files containing that name and the consecutive numbers eg: "file-001, file-002, file 003" etc
 
+## Piping
+   Is basically a form to redirect an output to another destination or a file, check the following example:
+   - Let's say we are looking for files with the text "doc-0*"
+    
+   > ![Screen Shot 2023-05-22 at 5 49 28 PM](https://github.com/dmg85/terminal-commands/assets/69224630/c3745bd8-61dc-405c-8d11-977651fc7ef8)
+  
+   -  In the image above we are indicating that the search result be outputted in the file after the ">", and this will be the result:
+   
+   >  ![Screen Shot 2023-05-22 at 6 00 33 PM](https://github.com/dmg85/terminal-commands/assets/69224630/f032012d-162d-4274-bda7-acc859b3c8bc)
 
 
+ 
 
