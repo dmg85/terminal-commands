@@ -4,10 +4,10 @@ Repository with the list of the basic commands to operate from the terminal.
 
 ## Key Commands & Navigation
 
-* `Up and Down` Will show your previous used commands
+* `Up and Down` Will show your previously used commands
 * `Tab key` Autocomplete your text
 * `Ctrl+L` Clear your terminal screen
-* `Ctrl+C` Cancel the command and goes to the next line without executing anything
+* `Ctrl+C` Cancel the command and go to the next line without executing anything
 * `Ctrl+R` Will pop up a search box and is going to match the last command
 * `Ctrl+D` Closes the terminal
 
@@ -15,12 +15,12 @@ Repository with the list of the basic commands to operate from the terminal.
 
 * `man` Stands for manual command and shows the documentation of a certain command eg: man ls, to exit press q
 * `whoami` Show the registered user
-* `date`show the current date
+* `date` Show the current date
 
 ## Navigation :earth_americas:
 
 * `pwd` Print the current working directory
-* `ls` List out the content of a folder and you can add "-a" shows hidden files or "-l" will show extra information like premisions, file size, but also allows you tu combine them eg: `la -a -l`
+* `ls` List out the content of a folder and you can add "-a" shows hidden files or "-l" will show extra information like permissions, file size, but also allows you to combine them eg: `la -a -l`
 * `cd` Changes your directory and also can be combined with the following commands:
   - `cd ..` Takes you one level up
   - `cd -`  Takes me back to the last folder I was in
@@ -35,14 +35,14 @@ Repository with the list of the basic commands to operate from the terminal.
 
 * `mkdir` Creates a folder eg: __mkdir__ folder1
 * `touch` Creates a file eg: __touch__ docs.txt
-  - You can also create multiple files at the same time using the following sintax: (here we are creating 10 numbered files)
+  - You can also create multiple files at the same time using the following syntax: (here we are creating 10 numbered files)
   
     ![Screen Shot 2023-05-20 at 7 56 34 PM](https://github.com/dmg85/terminal-commands/assets/69224630/bae7c955-fa59-4e02-a569-398abfbeb87f)
 
 * `rm` Remove files eg: __rm__ folder1, and there's also other options:
   - `rm -i` Prompts you a message asking if you want to delete the file
   - `rm -r` To delete an empty folder
-  - `rm -fr`To delete a folder with files in it
+  - `rm -fr` To delete a folder with files in it
 
 ## Copying and moving files :truck:
 
@@ -85,13 +85,13 @@ Repository with the list of the basic commands to operate from the terminal.
    - `+`: Matches one or more occurrences of the preceding character or group
  > ![Screen Shot 2023-05-20 at 8 11 59 PM](https://github.com/dmg85/terminal-commands/assets/69224630/f235bb21-5390-4781-a8c3-c84986f19ae0)
 
-In the example above the "." represents the current directory and the "-name" indicate to find by name
+In the example above the "." represents the current directory and the "-name" indicates to find by name
 - You can also search for empty files using the `-empty` command
 - `find` . -name "file-*" -delete will delete all the files containing that name and the consecutive numbers eg: "file-001, file-002, file 003" etc
 
 ## Piping
-   Is basically a form to redirect an output to another destination or a file, check the following example:
-   - Let's say we are looking for files with the text "doc-0*"
+   Is a form to redirect an output to another destination or a file, check the following example:
+   - Let's say we are looking for files with the text "doc-0*" which were previously created 
     
    > ![Screen Shot 2023-05-22 at 5 49 28 PM](https://github.com/dmg85/terminal-commands/assets/69224630/c3745bd8-61dc-405c-8d11-977651fc7ef8)
   
