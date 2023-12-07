@@ -58,16 +58,16 @@ Repository with the list of the basic commands to operate from the terminal.
    - ![Screen Shot 2023-05-20 at 11 57 31 AM](https://github.com/dmg85/terminal-commands/assets/69224630/bc0abb31-1c83-45d7-a8e8-0f5a00809304)
    - To exit the editing of the file press `ctrl + d`
    - `>>` will append the file in a new line
-   - `cat -n` will showline numbers
-* `less` Shows the content of the file but also allow us to scroll up & down, `q` will exit the less mode.
+   - `cat -n` will show line numbers
+* `less` Shows the content of the file but also allows us to scroll up & down, `q` will exit the less mode.
 *  `head` + filename  will show the first 10 lines by default 
   - `head -n` + [number] + filename, will show the number of lines you specify
-  - `tail` will give you the last 10 lines by defaul and also `tail -n` + a number will give you that exact amount of lines
+  - `tail` will give you the last 10 lines by default and also `tail -n` + a number will give you that exact amount of lines
 * `echo` will print out the text written after the command
-  - You can also apply `echo` to a file using the following sintax: ![Screen Shot 2023-05-20 at 7 32 45 PM](https://github.com/dmg85/terminal-commands/assets/69224630/09046bbc-9117-4095-b7a5-1f4467a779f3)
+  - You can also apply `echo` to a file using the following syntax:![Screen Shot 2023-05-20 at 7 32 45 PM](https://github.com/dmg85/terminal-commands/assets/69224630/09046bbc-9117-4095-b7a5-1f4467a779f3)
 
 
-## Terminal based editor (NANO) :arrows_clockwise:
+## Terminal-based editor (NANO) :arrows_clockwise:
 
 * `nano` + filename, will open the editor allowing you to edit a file.
  - To escape nano press `ctrl + x` press __y__ or __n__ to save your changes
@@ -75,7 +75,7 @@ Repository with the list of the basic commands to operate from the terminal.
 
 ## Searching tools :mag:
 
-* `grep` command search for an specific line or pattern in a file, you should specify the line you are looking for inside double      quotes like this:
+* `grep` command search for a specific line or pattern in a file, you should specify the line you are looking for inside double      quotes like this:
 
 >![Screen Shot 2023-05-20 at 7 46 17 PM](https://github.com/dmg85/terminal-commands/assets/69224630/ee4a3a16-0e4c-4444-955b-8a5e915b0f51)
 
@@ -91,7 +91,7 @@ In the example above the "." represents the current directory and the "-name" in
 
 ## Piping
    Is a form to redirect an output to another destination or a file, check the following example:
-   - Let's say we are looking for files with the text "doc-0*" which were previously created 
+   - Let's say we are looking for files with the text "doc-0*" which were previously created using the touch and curly braces syntax `touch doc-{01..05}.txt` 
     
    > ![Screen Shot 2023-05-22 at 5 49 28 PM](https://github.com/dmg85/terminal-commands/assets/69224630/c3745bd8-61dc-405c-8d11-977651fc7ef8)
   
@@ -99,6 +99,15 @@ In the example above the "." represents the current directory and the "-name" in
    
    >  ![Screen Shot 2023-05-22 at 6 00 33 PM](https://github.com/dmg85/terminal-commands/assets/69224630/f032012d-162d-4274-bda7-acc859b3c8bc)
 
+## Create a symlink
+   A symlink can be understood as a file that points to another file or folder, without the need to duplicate files in the case of folders.
+   - In this case, we have a profile folder located in the Documents folder containing some files inside
+     
+   > ![Screen Shot 2023-12-07 at 9 39 40 AM](https://github.com/dmg85/terminal-commands/assets/69224630/9bbf8340-8a13-4770-957f-e373787c4ffd)
 
- 
+   - Next, we type the link command "ln" + the destination folder in this case the desktop + the profile folder and at the end assign the name for the symlink as follows:
+
+   > <img width="462" alt="Screen Shot 2023-12-07 at 10 11 06 AM" src="https://github.com/dmg85/terminal-commands/assets/69224630/b58bdb70-2d9a-413f-8bb8-8701d0ed0288">
+
+
 
