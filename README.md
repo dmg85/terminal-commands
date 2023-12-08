@@ -1,4 +1,4 @@
-# Terminal-commands 🧑🏻‍💻 x macOs
+# Terminal-commands 🧑🏻‍💻 x Linux/macOs
 
 Repository with the list of the basic commands to operate from the terminal.
 
@@ -20,7 +20,7 @@ Repository with the list of the basic commands to operate from the terminal.
 ## Navigation :earth_americas:
 
 * `pwd` Print the current working directory
-* `ls` List out the content of a folder and you can add "-a" shows hidden files or "-l" will show extra information like permissions, file size, but also allows you to combine them eg: `la -a -l`
+* `ls` List out the content of a folder and you can add "-a" shows hidden files or "-l" will show extra information like permissions, and file size, but also allows you to combine them eg: `la -a -l`
 * `cd` Changes your directory and also can be combined with the following commands:
   - `cd ..` Takes you one level up
   - `cd -`  Takes me back to the last folder I was in
