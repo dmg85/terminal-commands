@@ -101,13 +101,12 @@ In the example above the "." represents the current directory and the "-name" in
 
 ## Create a symlink
    A symlink can be understood as a file that points to another file or folder, without the need to duplicate files in the case of folders.
-   - In this case, we have a profile folder located in the Documents folder containing some files inside
+   - In this case, we have a profiles folder located in the Documents folder containing some files inside
      
    > ![Screen Shot 2023-12-07 at 9 39 40 AM](https://github.com/dmg85/terminal-commands/assets/69224630/9bbf8340-8a13-4770-957f-e373787c4ffd)
 
-   - Next, we type the link command "ln" + the destination folder in this case the desktop + the profile folder and at the end assign the name for the symlink as follows:
+   - Next, we type the link command "ln" + "-s" for symbolic then indicate where the folder is followed by the folder name, and finally the destination folder 
 
-   > <img width="462" alt="Screen Shot 2023-12-07 at 10 11 06 AM" src="https://github.com/dmg85/terminal-commands/assets/69224630/b58bdb70-2d9a-413f-8bb8-8701d0ed0288">
+   > ![Screen Shot 2023-12-08 at 6 34 52 AM](https://github.com/dmg85/terminal-commands/assets/69224630/29028072-7d4f-434b-8290-b25bcc238a86)
 
-
-
+   > ![Screen Shot 2023-12-08 at 6 45 39 AM](https://github.com/dmg85/terminal-commands/assets/69224630/1ab71c2b-22b3-4ca9-8168-11e95a51585d)
