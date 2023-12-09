@@ -100,7 +100,7 @@ In the example above the "." represents the current directory and the "-name" in
    >  ![Screen Shot 2023-05-22 at 6 00 33 PM](https://github.com/dmg85/terminal-commands/assets/69224630/f032012d-162d-4274-bda7-acc859b3c8bc)
 
 ## Create a symlink
-   A symlink can be understood as a file that points to another file or folder, without the need to duplicate files in the case of folders.
+   A symlink can be understood as a file that points to another file or folder, without the need to duplicate files.
    - In this case, we have a profiles folder located in the Documents folder containing some files inside
      
    > ![Screen Shot 2023-12-07 at 9 39 40 AM](https://github.com/dmg85/terminal-commands/assets/69224630/9bbf8340-8a13-4770-957f-e373787c4ffd)
@@ -110,3 +110,27 @@ In the example above the "." represents the current directory and the "-name" in
    > ![Screen Shot 2023-12-08 at 6 34 52 AM](https://github.com/dmg85/terminal-commands/assets/69224630/29028072-7d4f-434b-8290-b25bcc238a86)
 
    > ![Screen Shot 2023-12-08 at 6 45 39 AM](https://github.com/dmg85/terminal-commands/assets/69224630/1ab71c2b-22b3-4ca9-8168-11e95a51585d)
+
+## File compression tarball (tar)
+   A tarball is a system file format that compresses multiple files and folders. To create one follow the next steps
+   - For the example we want to compress the profiles folder, to do that first add the "tar" command + -czvf + name of the folder + .tar.gz and finally the folder we are compressing
+   > ![Screen Shot 2023-12-08 at 2 11 11 PM](https://github.com/dmg85/terminal-commands/assets/69224630/a6eb3d73-1b70-46dc-a4f2-786cabf4921b)
+   - The "-czvf" after the tar are known as flags in linux and each letter has it own meaning:
+      - "-c" Creates archive.
+      - "z" Use gzip compression
+      - "v" Displays verbose information
+      - "f" Creates archive with given filename
+   
+   - To check what is inside the compressed file
+   > ![Screen Shot 2023-12-08 at 2 33 51 PM](https://github.com/dmg85/terminal-commands/assets/69224630/a6da2306-8cf7-40d7-9c46-5c5a70f06c07)
+
+   - To extract the information compressed type `tar -xzvf compress.tar.gz`
+   > ![Screen Shot 2023-12-08 at 10 43 02 PM](https://github.com/dmg85/terminal-commands/assets/69224630/24e0aa55-ae01-4871-ae19-620c01f5e202)
+
+## History
+   This command allows you to view the previously executed commands during the session
+   - `history` will show all the commands used during the session
+   > ![Screen Shot 2023-12-08 at 3 02 34 PM](https://github.com/dmg85/terminal-commands/assets/69224630/b309b5a6-7ab6-4eb3-b6d7-c4cda5582c44)
+
+   - You can also specify how many commands do you want to see `history -5`
+   > ![Screen Shot 2023-12-08 at 10 31 47 PM](https://github.com/dmg85/terminal-commands/assets/69224630/f29689d8-11ff-40d2-8fd0-5bdb914290e3)
